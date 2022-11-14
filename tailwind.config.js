@@ -5,6 +5,8 @@ module.exports = {
     extend: {
       fontFamily: {
         inter: ["inter", "sans-serif"],
+        quicksand: ["quicksand", "inter", "verdana"],
+        nunito: ["nunito", "inter", "sans-serif"],
       },
     },
   },
@@ -13,6 +15,7 @@ module.exports = {
     themes: [
       {
         myTheme: {
+          background: "#0F1418",
           primary: "#F3AA4E",
           secondary: "#6495ED",
           accent: "#4EF3AA",

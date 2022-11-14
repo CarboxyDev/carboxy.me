@@ -13,11 +13,11 @@ const Document: DocumentType = () => {
           crossOrigin="true"
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&family=Quicksand:wght@400;600;700&display=swap"
           rel="stylesheet"
         />
       </Head>
-      <body className="bg-base-300 text-base-content">
+      <body className="bg-background text-base-content">
         <Main />
         <NextScript />
       </body>
