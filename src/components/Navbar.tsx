@@ -21,8 +21,13 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link legacyBehavior href="/projects">
-              Projects
+            <Link legacyBehavior href="/Work">
+              Work
+            </Link>
+          </li>
+          <li>
+            <Link legacyBehavior href="/contact">
+              Contact
             </Link>
           </li>
         </ul>
