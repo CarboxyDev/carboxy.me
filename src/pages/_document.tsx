@@ -17,7 +17,7 @@ const Document: DocumentType = () => {
           rel="stylesheet"
         />
       </Head>
-      <body>
+      <body className="bg-base-100 text-base-content">
         <Main />
         <NextScript />
       </body>
