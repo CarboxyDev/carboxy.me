@@ -25,6 +25,10 @@ module.exports = {
           success: "#36D399",
           warning: "#FBBD23",
           error: "#F87272",
+          
+          "primary-focus": "#ec9f3d",
+          "secondary-focus": "#598ae3",
+          "accent-focus": "#43e89f",
         },
       },
     ],
