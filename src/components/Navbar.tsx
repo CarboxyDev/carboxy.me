@@ -34,7 +34,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="flex flex-none sm:hidden">
-          <div className="pr-4">
+          <div className="btn btn-ghost">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
