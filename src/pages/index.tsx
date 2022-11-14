@@ -9,9 +9,7 @@ const Home: NextPage = () => {
         <meta name="description" content="Personal website for CarboxyDev" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div>
-        <h1 className="text-blue-600 text-4xl">Welcome to my website!</h1>
-      </div>
+      <div></div>
     </>
   );
 };
