@@ -13,5 +13,14 @@ const config = {
     locales: ["en"],
     defaultLocale: "en",
   },
+  async redirects() {
+    return [
+      {
+        source: "/github",
+        destination: "https://github.com/CarboxyDev",
+        permanent: true,
+      },
+    ];
+  },
 };
 export default config;
