@@ -13,7 +13,7 @@ const Document: DocumentType = () => {
           crossOrigin="true"
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&family=Quicksand:wght@400;600;700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&family=Quicksand:wght@600&family=Righteous&display=swap"
           rel="stylesheet"
         />
       </Head>

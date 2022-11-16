@@ -4,9 +4,11 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        inter: ["inter", "sans-serif"],
+        inter: ["inter", "helvetica", "sans-serif"],
+        poppins: ["Poppins", "Arial", "sans-serif"],
+        nunito: ["nunito", "helvetica", "sans-serif"],
+        righteuos: ["Righteous", "Arial", "sans-serif"],
         quicksand: ["quicksand", "inter", "verdana"],
-        nunito: ["nunito", "inter", "sans-serif"],
       },
     },
   },
