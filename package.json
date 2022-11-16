@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.8",
+    "cssnano": "^5.1.14",
     "daisyui": "^2.40.1",
     "next": "13.0.2",
     "react": "18.2.0",
