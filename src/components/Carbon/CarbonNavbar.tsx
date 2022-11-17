@@ -33,11 +33,13 @@ const Navbar = () => {
             </Link>
           </div>
           <div className="pl-8">
-            <img
-              className="h-10 w-10"
-              src="/icon-github.svg"
-              alt="icon-github"
-            />
+            <Link href="/github">
+              <img
+                className="h-10 w-10"
+                src="/icon-github.svg"
+                alt="icon-github"
+              />
+            </Link>
           </div>
         </div>
       </nav>
