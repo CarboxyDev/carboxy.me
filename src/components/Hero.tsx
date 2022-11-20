@@ -31,11 +31,6 @@ const Hero = () => {
             </div>
           </div>
           <div className="hero-graphic flex-1 flex">
-            <img
-              className="h-64 w-64 mx-auto self-center"
-              src="/hero-illustration.svg"
-              alt="hero-illustration"
-            />
           </div>
         </div>
       </div>
