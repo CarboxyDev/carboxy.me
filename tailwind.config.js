@@ -3,12 +3,20 @@ module.exports = {
   content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
   theme: {
     extend: {
-      fontFamily: {
-        inter: ["inter", "helvetica", "sans-serif"],
-        poppins: ["Poppins", "Arial", "sans-serif"],
-        nunito: ["nunito", "helvetica", "sans-serif"],
-        righteuos: ["Righteous", "Arial", "sans-serif"],
-        quicksand: ["quicksand", "inter", "verdana"],
+      colors: {
+        brand: {
+          DEFAULT: "#ECA03C",
+          light: "#ECA74E",
+          dark: "#EC9A30",
+        },
+
+        fontFamily: {
+          inter: ["inter", "helvetica", "sans-serif"],
+          poppins: ["Poppins", "Arial", "sans-serif"],
+          nunito: ["nunito", "helvetica", "sans-serif"],
+          righteuos: ["Righteous", "Arial", "sans-serif"],
+          quicksand: ["quicksand", "inter", "verdana"],
+        },
       },
     },
   },

@@ -5,7 +5,7 @@ const Navbar = () => {
     <div className="min-h-16 h-16 w-full bg-transparent">
       <nav className="flex h-full items-center py-3 px-4">
         <div>
-          <a className="font-righteuos text-xl font-bold text-primary btn btn-ghost normal-case">
+          <a className="font-righteuos text-xl font-bold text-brand btn btn-ghost normal-case">
             CarboxyDev
           </a>
         </div>
