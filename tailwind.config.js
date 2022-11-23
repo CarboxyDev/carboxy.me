@@ -9,14 +9,13 @@ module.exports = {
           light: "#F3B05C",
           dark: "#F3A544",
         },
-
-        fontFamily: {
-          inter: ["inter", "helvetica", "sans-serif"],
-          poppins: ["Poppins", "Arial", "sans-serif"],
-          nunito: ["nunito", "helvetica", "sans-serif"],
-          righteuos: ["Righteous", "Arial", "sans-serif"],
-          quicksand: ["quicksand", "inter", "verdana"],
-        },
+      },
+      fontFamily: {
+        inter: ["inter", "helvetica", "sans-serif"],
+        poppins: ["Poppins", "Arial", "sans-serif"],
+        nunito: ["nunito", "helvetica", "sans-serif"],
+        righteuos: ["Righteous", "Arial", "sans-serif"],
+        quicksand: ["quicksand", "inter", "verdana"],
       },
     },
   },
