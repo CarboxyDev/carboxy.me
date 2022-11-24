@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = () => {
   return (
@@ -10,7 +11,7 @@ const Navbar = () => {
           </a>
         </div>
         <div className="flex grow flex-row items-center justify-end">
-          <div className="flex flex-row font-nunito text-slate-200 ">
+          <div className="flex flex-row font-nunito text-slate-200">
             <Link href="/">
               <div className="btn-ghost btn text-[16px] font-normal normal-case">
                 Home
@@ -34,7 +35,8 @@ const Navbar = () => {
           </div>
           <div className="pl-8">
             <Link href="/github">
-              <img
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img 
                 className="h-10 w-10"
                 src="/icon-github.svg"
                 alt="icon-github"
