@@ -20,6 +20,11 @@ const config = {
         destination: "https://github.com/CarboxyDev",
         permanent: true,
       },
+      {
+        source: "/lifely",
+        destination: "https://lifely.carboxy.me/",
+        permanent: true,
+      }
     ];
   },
 };
