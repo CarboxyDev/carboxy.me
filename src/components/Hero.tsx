@@ -24,7 +24,7 @@ const Hero = () => {
                 I build websites
               </h1>
               <div className="py-12 text-2xl text-[#A1A1A1] font-light font-nunito">
-                <p>Hey. I&apos;sm CarboxyDev</p>
+                <p>Hey. I&apos;m CarboxyDev</p>
                 <p className="pt-1">Full stack & UI/UX Developer</p>
                 <p className="pt-1 text-red-500">Website under construction</p>
               </div>
