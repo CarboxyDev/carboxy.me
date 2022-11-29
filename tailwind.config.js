@@ -11,21 +11,19 @@ module.exports = {
         },
       },
       fontFamily: {
-        inter: ["inter", "helvetica", "sans-serif"],
-        poppins: ["Poppins", "Arial", "sans-serif"],
         nunito: ["nunito", "helvetica", "sans-serif"],
         righteuos: ["Righteous", "Arial", "sans-serif"],
         quicksand: ["quicksand", "inter", "verdana"],
       },
     },
   },
-  plugins: [require("@tailwindcss/forms"),require("@tailwindcss/typography"), require("daisyui")],
+  plugins: [require("@tailwindcss/forms"), require("daisyui")],
 
   daisyui: {
     themes: [
       {
         myTheme: {
-          background: "#0F1418",
+          background: "#18181B",
           primary: "#F3AA4E",
           secondary: "#6495ED",
           accent: "#4EF3AA",

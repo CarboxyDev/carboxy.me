@@ -2,57 +2,49 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <>
-      <div className="navbar">
-        <div className="flex-1">
-          <a className="btn btn-ghost normal-case text-xl text-primary">
+    <div className="min-h-16 h-16 w-full bg-transparent">
+      <nav className="flex h-full items-center py-3 px-4">
+        <div>
+          <a className="font-righteuos text-xl font-bold text-brand btn btn-ghost normal-case">
             CarboxyDev
           </a>
         </div>
-        <div className="hidden flex-none sm:flex ">
-          <ul className="menu menu-horizontal p-0">
-            <li>
-              <Link legacyBehavior href="/">
+        <div className="flex grow flex-row items-center justify-end">
+          <div className="flex flex-row font-nunito text-slate-200">
+            <Link href="/">
+              <div className="btn-ghost btn text-[16px] font-normal normal-case">
                 Home
-              </Link>
-            </li>
-            <li>
-              <Link legacyBehavior href="/about">
+              </div>
+            </Link>
+            <Link href="/about">
+              <div className="btn-ghost btn text-[16px] font-normal normal-case">
                 About
-              </Link>
-            </li>
-            <li>
-              <Link legacyBehavior href="/Work">
+              </div>
+            </Link>
+            <Link href="/work">
+              <div className="btn-ghost btn text-[16px] font-normal normal-case">
                 Work
-              </Link>
-            </li>
-            <li>
-              <Link legacyBehavior href="/contact">
+              </div>
+            </Link>
+            <Link href="/contact">
+              <div className="btn-ghost btn text-[16px] font-normal normal-case">
                 Contact
-              </Link>
-            </li>
-          </ul>
-        </div>
-        <div className="flex flex-none sm:hidden">
-          <div className="btn btn-ghost">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M4 6h16M4 12h8m-8 6h16"
+              </div>
+            </Link>
+          </div>
+          <div className="pl-8">
+            <Link href="/github">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                className="h-10 w-10"
+                src="/icon-github.svg"
+                alt="icon-github"
               />
-            </svg>
+            </Link>
           </div>
         </div>
-      </div>
-    </>
+      </nav>
+    </div>
   );
 };
 
