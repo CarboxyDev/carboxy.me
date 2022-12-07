@@ -10,6 +10,9 @@ const Hero = () => {
             <div className="py-12 text-2xl text-[#A1A1A1] font-light font-nunito">
               <p>Hey. I&apos;m CarboxyDev</p>
               <p className="mt-1">Full stack & UI/UX Developer</p>
+              <p className="mt-1 text-red-400 font-medium">
+                Website under construction
+              </p>
             </div>
             <button className="btn btn-primary">About Me</button>
           </div>
@@ -26,6 +29,9 @@ const Hero = () => {
               <div className="py-12 text-2xl text-[#A1A1A1] font-light font-nunito">
                 <p>Hey. I&apos;m CarboxyDev</p>
                 <p className="mt-1">Full stack & UI/UX Developer</p>
+                <p className="mt-1 text-red-400 font-medium">
+                  Website under construction
+                </p>
               </div>
               <button className="btn btn-primary">About Me</button>
             </div>
